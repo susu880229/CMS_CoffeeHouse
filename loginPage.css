@@ -1,0 +1,62 @@
+body{
+	font-family:Arial,Helvetica,sans-serif;
+	color:#333333;
+	font-size:12px;
+	background:reapeat-x #E2E2E2;
+}
+.log{
+	width:310px;
+	height:auto;
+	margin:0 auto;
+	/**這裡的margin：0 auto
+	可將log模塊放置頁面中間
+	*/
+	padding-top:70px;
+	/**padding-top:100px
+	指的是模塊之上空出100px的位子*/
+	padding-bottom:120px;
+}
+.top{
+	background:#008CBA;
+	color:white;
+	width:310px;
+	height:58px;
+	text-align:center;
+	font-size:45px;
+}
+.content{
+	border:1px solid #DBDBDB;
+	color:#003976;
+	background:#F9F9F9;
+	text-align:center;
+	margin:0 auto;
+}
+.btn{
+	
+	color:black;
+	background-color:#eee;
+	width:100px;
+	height:30px;
+	border:2px solid #e7e7e7;
+}
+.btn:hover{
+	background-color:#e7e7e7;	
+}
+.buttons{
+	text-align:center;
+	vertical-align:middle;
+}
+#paragraph{
+	text-align:center;
+	margin:0 auto;
+	
+}
+footer{
+	padding:1em;
+
+	color:#008CBA;
+	background-color:#eee;
+	clear:left;
+	height:auto;
+	text-align:center;
+}

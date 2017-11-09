@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Login page</title>
+<link rel="stylesheet" href="loginPage.css"
+type="text/css">
+</head>
+<body>
+<div class="log">
+
+<div class="top">Log In</div>
+<div class="content">
+<form action="auth.php" method="post">
+<table  cellpadding="0" cellspacing="0">
+   <tr><!--列的合併↓↓↓-->
+	<td colspan="3" height="20px"></td>
+   </tr>
+   <tr>
+   <td width="120px">
+	&nbsp;&nbsp;&nbsp;&nbsp;Username:
+	<td width="130px">
+	<input type="text" name="username"/>
+    </td>
+   </tr>
+   <tr><!--列的合併↓↓↓-->
+	<td colspan="3" height="20px"></td>
+   </tr>
+ <tr>
+ <td width="120px">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:<td width="130px">
+	<input type="password" name="password"/> 
+ </td></tr>	
+  <tr><td width="120px">
+   <input type="hidden" name="login"/>
+   </td>
+  </tr>
+  <tr><!--列的合併↓↓↓-->
+	<td colspan="3" height="10px"></td>
+  </tr>
+  <tr><td colspan="3" class="buttons">
+	<input type="submit" name="submit" class="btn" value="Submit"> 
+	
+	<input type="reset" value="Reset" class="btn">
+  </td>
+  </tr>
+</table>
+</div>
+<span id="span"><font face="verdana"
+		size="2">
+		<div id='paragraph' ><h3> 
+<p>For HR log in, please type HR for both username and password </p>
+<p> For Sales log in, please type Sales for both username and password </p>
+<p> For Helpdesk log in, please type Helpdesk for both username and password </p>
+</h3></div>
+		</span>
+
+</div>
+
+</form>
+
+<footer>
+
+	Copyright © TeamProject
+</footer>
+</body>
+</html>
